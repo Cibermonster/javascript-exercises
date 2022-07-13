@@ -1,5 +1,7 @@
 const sumAll = function(x, y) {
-
+    if (typeof x != 'number' || typeof y != 'number') { return "ERROR" }
+    if (x <= 0 || y <= 0) { return "ERROR" }
+    
     if (x > y) {
         var newx = y
         var newy = x
@@ -8,7 +10,6 @@ const sumAll = function(x, y) {
     }
     
     var sum = x
-    
     for (i = x; x < y; i++) {
         x = x + 1
         sum = sum + x
