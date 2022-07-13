@@ -1,18 +1,19 @@
 
 
 const removeFromArray = function() {
+    console.table(arguments)
     var arr = arguments[0]
-    const len = arr.length
+    var remarr = arguments
+    const len = arguments.length
     console.log("Before: "+arr)
+    console.log("Test: "+remarr)
+    console.log("toRemove: "+len)
     
-    /*
-    for (i = 0; i < len; i++) {  
-        console.log("Count: "+i)
-        arr.splice(i, 1)
+    for (i = 1; i <= len-1; i++) {  
+        console.log("REMOVE!: "+i)
+        arr.splice(arr.indexOf(arguments[i]), 1)
     }
-    console.log("After: "+arr)
-    return arr*/
-    arr.splice(arr.indexOf(arguments[1]), 1)
+
     console.log("After: "+arr)
     return arr;
 };
