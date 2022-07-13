@@ -1,8 +1,8 @@
-const removeFromArray = function(array, args) {
-    var arr = array
-    for (i = arguments.length - 1; i > 0; i --) {
+const removeFromArray = function() {
+    var arr = arguments[0]
+    console.log("Before: "+arr)
+    for (i = arguments.length - 1; i > 0; i--) {
         
-        console.log(arr)
     }
     return arr
 };
