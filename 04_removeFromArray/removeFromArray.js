@@ -10,8 +10,11 @@ const removeFromArray = function() {
     console.log("toRemove: "+len)
     
     for (i = 1; i <= len-1; i++) {  
-        console.log("REMOVE!: "+i)
-        arr.splice(arr.indexOf(arguments[i]), 1)
+        if (arr.indexOf(arguments[i]) > 0){
+            arr.splice(arr.indexOf(arguments[i]), 1)
+        }
+        //console.log("REMOVE!: "+arr.indexOf(arguments[i]))
+        
     }
 
     console.log("After: "+arr)
