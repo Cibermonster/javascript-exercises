@@ -1,9 +1,17 @@
 const sumAll = function(x, y) {
+
+    if (x > y) {
+        var newx = y
+        var newy = x
+        var x = newx
+        var y = newy
+    }
+    
     var sum = x
-    for (i = x; i < y; i++) {
-        sum = sum + (i+1)
-        //console.log("i = "+i)
-        //console.log("sum = "+sum)
+    
+    for (i = x; x < y; i++) {
+        x = x + 1
+        sum = sum + x
     }
     return sum
 };
