@@ -1,5 +1,7 @@
 const ftoc = function(f) {
-    Math.round()
+    var result = 0
+
+    return result //.toPrecision(2)
 };
 
 const ctof = function(c) {
