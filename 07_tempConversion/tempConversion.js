@@ -1,7 +1,7 @@
 const ftoc = function(f) {
-    var result = 0
-
-    return result //.toPrecision(2)
+  var result = 0
+  result =(f - 32) * (5/9)
+  return parseFloat(result.toPrecision(3))
 };
 
 const ctof = function(c) {
