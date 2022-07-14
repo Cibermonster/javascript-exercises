@@ -1,8 +1,8 @@
-const ftoc = function() {
-
+const ftoc = function(f) {
+    Math.round()
 };
 
-const ctof = function() {
+const ctof = function(c) {
 
 };
 
