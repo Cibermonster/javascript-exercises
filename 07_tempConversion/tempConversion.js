@@ -5,7 +5,7 @@ const ftoc = function(f) {
 
 const ctof = function(c) {
   var result = c * (9/5) + 32
-  return parseFloat(result.toPrecision(3))
+  return parseFloat(result.toPrecision(4))
 };
 
 // Do not edit below this line
