@@ -8,14 +8,14 @@ const subtract = function(x,y) {
 
 const sum = function(arr) {
   var sum = 0
-  arr.forEach(function(n) {
-    sum += n;
-  });
+  arr.forEach(x => sum += x);
 	return sum;
 };
 
-const multiply = function() {
-
+const multiply = function(arr) {
+  var mult = arr.map(x => x*2)
+  
+	return mult;
 };
 
 const power = function() {
