@@ -7,6 +7,7 @@ const subtract = function(x,y) {
 };
 
 const sum = function(arr) {
+  var sum = 0
   arr.forEach(x => sum += x);
 	return sum;
 };
