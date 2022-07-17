@@ -14,9 +14,7 @@ const sum = function(arr) {
 
 const multiply = function(arr) {
   var mult = 1
-  arr.forEach(x => mult *= x)
-  
-	return mult;
+  arr.forEach(x => mult *= x, return mult);
 };
 
 const power = function() {
