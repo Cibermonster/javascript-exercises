@@ -18,8 +18,9 @@ const multiply = function(arr) {
 	return mult;
 };
 
-const power = function() {
-	
+const power = function(x,y) {
+  pw = x**y
+	return pw;
 };
 
 const factorial = function() {
