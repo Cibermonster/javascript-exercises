@@ -23,8 +23,9 @@ const power = function(x,y) {
 	return pw;
 };
 
-const factorial = function() {
-	
+const factorial = function(n) {
+	y = n * (n - 1)
+  return y;
 };
 
 // Do not edit below this line
