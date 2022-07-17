@@ -13,7 +13,8 @@ const sum = function(arr) {
 };
 
 const multiply = function(arr) {
-  var mult = arr.map(x => x*2)
+  var mult = 1
+  arr.forEach(x => mult *= x)
   
 	return mult;
 };
