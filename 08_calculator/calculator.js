@@ -19,7 +19,7 @@ const multiply = function(arr) {
 };
 
 const power = function(x,y) {
-  pw = x**y
+  var pw = x**y
 	return pw;
 };
 
