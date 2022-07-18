@@ -1,5 +1,5 @@
 const fibonacci = function(n) {
-    if (n < 0) { return "OOPS" }
+    if (n < 0) { return "OOPS"; }
     let a = 0, b = 1, c = parseInt(n);
     for(let i = 2; i <= n; i++) {
         c = a + b;
