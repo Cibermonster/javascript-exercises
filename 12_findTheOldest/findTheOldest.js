@@ -8,7 +8,7 @@ const findTheOldest = function(people) {
             return -1;
         }
     });
-    console.table(people);
+    console.lod(Date().getFullYear());
     return people[0];
 };
 
