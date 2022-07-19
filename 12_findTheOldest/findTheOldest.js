@@ -1,5 +1,5 @@
 const findTheOldest = function(people) {
-    people.sort(function(a,b) { 
+    people.sort((a,b) => { 
         b.yearOfDeath ??= new Date().getFullYear()
         let aAge = a.yearOfDeath - a.yearOfBirth
         let bAge = b.yearOfDeath - b.yearOfBirth
