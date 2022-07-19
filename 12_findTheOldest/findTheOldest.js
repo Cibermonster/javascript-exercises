@@ -4,11 +4,6 @@ const findTheOldest = function(people) {
         let aAge = a.yearOfDeath - a.yearOfBirth
         let bAge = b.yearOfDeath - b.yearOfBirth
         return x = aAge < bAge ? 1 : -1
-        /*if (aAge < bAge) {
-            return 1;
-        } else {
-            return -1;
-        }*/
     });
     return people[0];
 };
